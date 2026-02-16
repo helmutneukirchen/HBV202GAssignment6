@@ -1,10 +1,8 @@
 package is.hi.hbv202g.ass6;
 
-import org.junit.runner.RunWith;
-import org.junit.runners.Suite;
-import org.junit.runners.Suite.SuiteClasses;
+import org.junit.platform.suite.api.*;
 
-@RunWith(Suite.class)
-@SuiteClasses({ CarTest.class, CarOwnerTest.class})
+@Suite
+@SelectClasses({ CarTest.class, CarOwnerTest.class})
 public class Alltests {
 }

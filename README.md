@@ -1,7 +1,12 @@
 # HBV202GAssignment6
 A project with a silly car owner class that needs refactoring.
 
-This project is a Maven project, i.e. it uses the standard Maven project structure that your IDE hopefully understands when you `git clone` it. The provided Maven POM includes the JUnit4 dependency.
+This project is a Maven project, i.e. it uses the standard Maven project structure that your IDE should understand
+when you `git clone` it.
+
+The provided Maven POM includes the JUnit 5 dependency.
+
+The POM sets the Java version to 21 as this is the version that the autograder supports.
 
 Both the implementation and the tests are in Java package `is.hi.hbv202g.ass6`, 
 but in the usual separate Maven `src` directories:

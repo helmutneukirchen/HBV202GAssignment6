@@ -1,8 +1,7 @@
 package is.hi.hbv202g.ass6;
 
-import org.junit.Test;
-
-import static org.junit.Assert.assertEquals;
+import org.junit.jupiter.api.*;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class CarTest {
     @Test
